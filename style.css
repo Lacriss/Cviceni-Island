@@ -20,5 +20,140 @@ body {
 	background-color: #f5f5f5;
 	font-size: 16px;
 	line-height: 1.6;
+	font-family:'Merriweather', serif;
 }
 
+.hlavicka {
+	color: white;
+	text-align: center;
+	background-image: url("images/island-hlavicka.jpg") ;
+	background-repeat:no-repeat;
+	background-position: center;
+    background-size: cover;
+	position:relative;
+}
+
+
+h1 {
+	font-family: 'Raleway', sans-serif ;
+	padding-top: 25px;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 50px;
+}
+
+.hlavicka_popis {
+	padding-left: 30px;
+	padding-right: 30px;
+	font-size: 14px;
+	margin-bottom: 40px;
+}
+
+.hlavicka_carka {
+	width: 80px;
+	height: 2px;
+	background-color: white;
+	margin: auto;
+}
+
+.jmeno {
+	opacity:70%;
+	padding-bottom: 20px;
+	font-style: italic ;
+	font-size: 14px;
+}
+.menu ul {
+	display: flex;
+	align-items:center;
+	justify-content: center;
+	flex-direction: column;
+	
+}
+.menu ul li{
+	display: inline-flex;
+	text-decoration: none;
+	
+
+}
+
+li a {
+	text-decoration: none;
+	color: rgb(124, 124, 124);
+	font-family: 'Raleway', sans-serif ;
+	text-transform: uppercase;
+	
+
+}
+
+.obsah p {
+	padding: 0px;
+	margin:0px;
+}
+
+.copyright,
+.copyright a {
+	color: rgb(124, 124, 124); ;
+	text-align: center;
+	padding:0px;
+	margin:0;
+	margin-bottom: 20px;;
+	font-size: 10px;
+}
+.copyright_name {
+	color: rgb(124, 124, 124); ;
+	text-align: center;
+	padding:0px;
+	margin:0;
+	margin-top: 20px;;
+	font-size: 13px;
+	font-weight: bold;
+	
+}
+.obsah img {
+	width: 100%;
+}
+.psani img {
+	margin-top: 50px;;
+}
+.modra {
+	width: 80px;
+	height: 4px;
+	background-color: #629fe0	;
+	margin-bottom: 25px;
+}
+.obsah p {
+	padding-left: 40px;
+	padding-right: 20px;
+}
+
+.paticka, 
+.paticka a{
+	background-color: #f5f5f5	;
+	color:rgb(124, 124, 124);
+	font-size: 10px;
+}
+
+@media only screen and (min-width: 800px)
+	{
+body {
+	background-color: rgb(218, 218, 218);
+}
+.telo {
+	background-color: white;
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	
+
+}
+ul {
+	margin-top: 0;
+	padding-top: 20px;
+}
+
+
+
+
+	}
